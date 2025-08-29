@@ -65,7 +65,6 @@ Then run the following command to begin training:
 python train.py
 ```
 
-You can modify the training and evaluation configuration by appropriately changing `analysis/default_inv.py`.
 
 ## Evaluation
 
