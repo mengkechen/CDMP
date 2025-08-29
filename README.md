@@ -1,7 +1,8 @@
 # CDMP & CDMP-pen
-<div align="center">
+<div align="left">
 
-![framework_00](D:\研一下\智能引擎\TCOM\Conditional Diffusion Model with OOD Mitigation as High-Dimensional Offline Resource Allocation Planner in Clustered Ad Hoc Networks\framework_00.png)
+<img width="1536" height="680" alt="framework_00" src="https://github.com/user-attachments/assets/267d3cfa-1362-418b-9493-393ef9bd0745" />
+
 
 This repository, corresponding to the paper https://arxiv.org/abs/2503.17693, presents the Conditional Diffusion Model Planner (**CDMP**) for high-dimensional offline resource allocation in clustered ad hoc networks. CDMP leverages the generative power of Diffusion Models (DMs) to accurately capture complex environmental dynamics and integrates an inverse dynamics model for effective policy planning. By incorporating a theoretically grounded, uncertainty-aware penalty metric, the approach is further extended to the **CDMP-pen** algorithm, which mitigates Out-of-Distribution (OOD) distributional shift and enhances robustness. Extensive experiments demonstrate that our model consistently outperforms Model-Free RL (MFRL) and other Model-Based RL (MBRL) algorithms in terms of average reward and QoS, validating its practicality and scalability for real-world network resource allocation tasks.
 
@@ -76,7 +77,7 @@ We conduct simulation-based evaluation on the **OPNET platform**. During testing
 The default interaction path is defined in `scripts/evaluate_inv_parallel.py` as:
 
 ```
-INTERACT_DIR_PATH = '/CDMP&CDMP-pen/OPNET'
+INTERACT_DIR_PATH = './OPNET'
 state_file = os.path.join(INTERACT_DIR_PATH, "state_b.txt")
 action_file = os.path.join(INTERACT_DIR_PATH, "action_b.txt")
 ```
